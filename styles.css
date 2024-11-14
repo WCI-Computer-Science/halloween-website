@@ -10,7 +10,7 @@ body {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.8rem;
   align-items: center;
   font-size: 1.2rem;
 }
@@ -21,6 +21,7 @@ body {
   padding: 1rem;
   text-align: left;
   background: #2f1a4c;
+  padding: 0;
 }
 
 .navbar a {
@@ -29,7 +30,6 @@ body {
   text-decoration: none;
   font-weight: bold;
   text-shadow: 0 0 10px #e84545, 0 0 20px #e84545;
-  padding: 0;
 }
 
 /* Landing Section */
