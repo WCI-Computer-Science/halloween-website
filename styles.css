@@ -59,6 +59,7 @@ body {
 .about p {
   max-width: 600px;
   margin: auto;
+  margin-top: 0.4rem;
   color: #e0c3fc;
   line-height: 1.6;
 }
