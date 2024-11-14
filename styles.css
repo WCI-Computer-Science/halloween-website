@@ -17,11 +17,13 @@ body {
 
 /* Navbar */
 .navbar {
-  width: 100%;
-  padding: 1rem;
-  text-align: left;
   background: #2f1a4c;
-  padding: 0;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  padding: 15px 40px;
+  position: fixed;
+  text-align: left;
 }
 
 .navbar a {
