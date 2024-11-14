@@ -1,7 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   padding: 0.5rem;
 }
 
@@ -26,11 +26,12 @@ body {
 }
 
 .navbar a {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #e84545;
   text-decoration: none;
   font-weight: bold;
   text-shadow: 0 0 10px #e84545, 0 0 20px #e84545;
+  padding: 0.2rem;
 }
 
 /* Landing Section */
@@ -40,6 +41,7 @@ body {
 }
 
 .landing h2 {
+  margin-top: 3rem;
   font-size: 3rem;
   color: #e84545;
   text-shadow: 0 0 10px #e84545, 0 0 20px #ff135f;
@@ -60,7 +62,7 @@ body {
 .about p {
   max-width: 600px;
   margin: auto;
-  margin-top: 0.4rem;
+  margin-top: 4rem;
   color: #e0c3fc;
   line-height: 1.6;
 }
@@ -136,7 +138,8 @@ body {
 
 /* Animations */
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
     transform: scale(1);
   }
