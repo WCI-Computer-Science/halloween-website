@@ -1,4 +1,3 @@
-/* General Reset */
 * {
   margin: 0;
   padding: 1rem;
@@ -6,12 +5,12 @@
   font-family: 'Courier New', monospace;
 }
 
-/* Background & Body */
 body {
   background-color: #0e0b16;
   color: #ffffff;
   display: flex;
   flex-direction: column;
+  padding: 1rem;
   align-items: center;
   font-size: 1.2rem;
 }
